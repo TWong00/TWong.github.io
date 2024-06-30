@@ -1,17 +1,24 @@
 body {
     padding-top: 0px; /* padding on top */
     background-color:#9C3848;
+    background-image: url(/images/soupdumplings.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin:0;
     overflow-x:hidden;
     display: flex;
     flex-direction: column;
+    background-attachment: fixed;
 }
 /*styles for the navigation bar */
 .navbarexpand {
     background-color: #fffce7; /* navigation bar background color */
 }
 .navbarexpand .nav-item.active .nav-link {
+    font-family:sans-serif;
     color: darkred; /* highlight active link with a different color */
+    font-weight: 700;
 }
 .navbarexpand .navbar-collapse {
     background-color: #fffce7;
@@ -34,6 +41,8 @@ body {
 
 .navbar-nav .nav-link {
     color: #FF0000;
+    font-weight:bold;
+    font-size:large;
 }
 /*hover navigation color*/
 .navbar-nav .nav-link:hover {
@@ -44,12 +53,50 @@ body {
     height: auto; /* Allows the image to scale proportionally */
     display: block; /* Removes any extra spaces around the image */
 }
+.row.mt-4{
+    color:#fffce7;
+    border: 2px solid #fffce7; /* Border color */
+    padding: 20px; /* Padding inside the box */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for contrast */
+    border-radius: 10px; /* Optional: Rounds the corners of the box */
+    opacity:1.0;
+}
 .card-body{
-    background-color: #fffce7 ;
+    color:#fffce7;
+    border: 2px solid #fffce7; /* Border color */
+    padding: 20px; /* Padding inside the box */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for contrast */
+    border-radius: 10px; /* Optional: Rounds the corners of the box */
+    opacity:1.0;
 }
 .mt-5{
     color:#fffce7;
+    border: 2px solid #fffce7; /* Border color */
+    padding: 20px; /* Padding inside the box */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for contrast */
+    border-radius: 10px; /* Optional: Rounds the corners of the box */
+    opacity:1.0;
 }
+
+.boxed {
+    border: 2px solid #fffce7; /* Border color */
+    padding: 20px; /* Padding inside the box */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for contrast */
+    border-radius: 10px; /* Optional: Rounds the corners of the box */
+    opacity:1.0;
+}
+
+.aboutuscontainer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #fffce7; /* Border color */
+    padding: 20px; /* Padding inside the box */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for contrast */
+    border-radius: 10px; /* Optional: Rounds the corners of the box */
+    opacity:1.0;
+    color:#fffce7;
+}
+
 .aboutusdetail{
     color:#fffce7;
     font-style: italic;
@@ -62,8 +109,11 @@ body {
 
 /* Jumbotron styling */
 .jumbotron {
-    background-color: #E5989B;
-    color: #000000;
+    color:#fffce7;
+    padding: 20px; /* Padding inside the box */
+    background-color: rgba(0, 0, 0, 0.0); /* Semi-transparent background for contrast */
+    border-radius: 10px; /* Optional: Rounds the corners of the box */
+    opacity:1.0;
 }
 
 /* Button styling */
@@ -95,11 +145,19 @@ body {
     background-color: #9c3848;
 }
 #entiremenucontainer{
-    background-color: #E5989B;
+    /*background-color: rgba(229, 152, 155, 0.5);
+    border-radius: 10px;*/
+    color:#fffce7;
+    border: 2px solid #fffce7; /* Border color */
+    padding: 20px; /* Padding inside the box */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for contrast */
+    border-radius: 10px; /* Optional: Rounds the corners of the box */
+    opacity:1.0;
 }
 
 .custom-navbar .nav-link {
     color: #000000; /*color for my menu navigation bar */
+    font-weight: bold;
 }
 
 /*this is for the menu so that everything is aligned*/
@@ -193,6 +251,12 @@ body {
     margin: auto;
     overflow: hidden;
     text-align: center;
+    color:#fffce7;
+    border: 2px solid #fffce7; /* Border color */
+    padding: 5px; /* Padding inside the box */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for contrast */
+    border-radius: 10px; /* Optional: Rounds the corners of the box */
+    opacity:1.0;
 }
 
 .gallery-container img {
@@ -240,4 +304,14 @@ html, body {
 }
 .form-group{
     color:#fffce7
+}
+
+.contactuscontainer{
+    margin-top:10px;
+    color:#fffce7;
+    border: 2px solid #fffce7; /* Border color */
+    padding: 20px; /* Padding inside the box */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for contrast */
+    border-radius: 10px; /* Optional: Rounds the corners of the box */
+    opacity:1.0;
 }
